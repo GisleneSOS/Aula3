@@ -29,10 +29,10 @@
         return;
     }
 
-    const respostaFullstack = prompt("Você pretende seguir se especializando na área escolhida ou se desenvolvendo como Fullstack (com conhecimento sobre tanto Back-end como Front-end)? Aperte 1 para a primeira opção e 2 para a segunda.");
+    const respostaFullstack = prompt("Você pretende seguir se especializando na área escolhida ou se desenvolvendo como Fullstack (com conhecimento sobre tanto Back-end como Front-end)? Aperte 1 para a primeira opção Back-end e 2 para a segunda opção Front-end.");
 
     if(respostaFullstack == 1){
-        alert(`Você escolheu ${respostaArea} como a área para se especializar no ramo da Programação! Busque aprender mais linguagens sobre a sua área!`);
+        alert(`Você escolheu como a área para se especializar no ramo da Programação! Busque aprender mais linguagens sobre a sua área!`);
     }
 
     if(respostaFullstack == 2){
